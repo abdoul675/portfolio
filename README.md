@@ -22,3 +22,7 @@ Chaque modification envoyée sur `main` déclenche le workflow GitHub Actions `P
 ## Prévisualisation
 
 Ouvrir `index.html` dans un navigateur, ou servir le dossier avec un serveur de fichiers statiques.
+
+## Animations
+
+`motion.css` et `motion.js` gèrent la présentation animée avec les API natives du navigateur, sans bibliothèque externe. Les entrées au défilement ne masquent jamais le contenu par défaut. Le bouton Animations permet de les désactiver ; la préférence système de réduction des mouvements est prioritaire.
